@@ -1,29 +1,74 @@
-# Welcome to your Expo app 👋
+<h1 align="center">
+ 
+    PingUp.io
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+</h1>
 
-## Get started
+<h3 align="center">
+  End-to-end encrypted mobile application
 
-1. Install dependencies
+PingUp.io is an end-to-end encrypted mobile application built with [Expo](https://expo.dev) and React Native. This application ensures secure, private communication with encryption that protects your messages from end to end.
+
+## About
+
+PingUp.io provides a secure messaging platform where all communications are encrypted end-to-end, ensuring that only you and your intended recipients can read your messages. Built with modern mobile development technologies, PingUp.io offers a seamless and secure communication experience.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later recommended)
+- npm or yarn package manager
+- Expo CLI (installed globally or via npx)
+- For iOS development: Xcode and iOS Simulator (macOS only)
+- For Android development: Android Studio and Android Emulator
+
+### Installation & Setup
+
+1. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Start the development server**
 
    ```bash
+   npm start
+   # or
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run on your preferred platform**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   After starting the development server, you can run the app on:
+   
+   - **iOS Simulator** (macOS only):
+     ```bash
+     npm run ios
+     # or press 'i' in the Expo CLI
+     ```
+   
+   - **Android Emulator**:
+     ```bash
+     npm run android
+     # or press 'a' in the Expo CLI
+     ```
+   
+   - **Web Browser**:
+     ```bash
+     npm run web
+     # or press 'w' in the Expo CLI
+     ```
+   
+   - **Expo Go** (for quick testing on physical devices):
+     - Install Expo Go app on your iOS or Android device
+     - Scan the QR code displayed in the terminal or browser
+     - Note: Some native features may be limited in Expo Go
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Development
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction) with Expo Router.
 
 ## Get a fresh project
 
