@@ -1,7 +1,5 @@
 <h1 align="center">
- 
-    PingUp.io
-
+   PingUp.io
 </h1>
 
 <h3 align="center">
